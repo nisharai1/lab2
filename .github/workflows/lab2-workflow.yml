@@ -23,6 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Printing Custom message
-        run: echo "${{ github.event.inputs.custom_message}}"
+        run: echo "${{ github.event.inputs.custom_message }}"
       
 
